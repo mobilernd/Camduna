@@ -10,7 +10,7 @@ Clone the repository into your local machine and run tests in the file name Clie
 
 public void shouldReturnUsersNumbers() 
     
-It will total number of users in the resposne .
+It will return total number of users in the resposne .
 
 # Second test function is 
 
