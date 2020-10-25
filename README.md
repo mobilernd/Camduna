@@ -12,7 +12,7 @@ public void shouldReturnUsersNumbers()
     
 It will total number of users in the resposne .
 
-# second test function is 
+# Second test function is 
 
 public void shouldReturnTureForFirstUserName()  
 
