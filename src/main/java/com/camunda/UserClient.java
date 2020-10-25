@@ -39,9 +39,12 @@ public class UserClient {
             System.out.println(response.toString());
             System.out.println("===========================================================");
             response_str = response.toString() ;
-
+/// the following method to get only user data , we are not interested to other details about
+            /// users like ad 
             response_str = get_user_data_only_from_response(response_str) ;
-
+             
+            /// parse user names and print them in console window , finally return 
+            // the total number of users .
             int usersCount = printsUsersNames(response_str) ;
             System.out.println("user count is " + usersCount);
 
@@ -89,7 +92,5 @@ public class UserClient {
         return  found_user_data[0];
     }
 
-    public  static  String return_hello() {
-        return  "mahmoud" ;
-    }
+
 }
